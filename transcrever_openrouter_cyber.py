@@ -29,8 +29,8 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     timeout=90.0,
     default_headers={
-        "HTTP-Referer": "https://localhost",
-        "X-Title": "WebSec",
+        "HTTP-Referer": "https://github.com/andreluis-oliveira/OpenRouter-Audio-Transcriber",
+        "X-Title": "OpenRouter Audio Transcriber",
     },
 )
 
